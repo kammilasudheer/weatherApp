@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: black;
+}
+
+.weather-app {
+  width: 350px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+input {
+  border-radius: 10px !important;
+}
+
+button {
+  border-radius: 10px !important;
+}
+
+#temp {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+img {
+  width: 80px;
+}
